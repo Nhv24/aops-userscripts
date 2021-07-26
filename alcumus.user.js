@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name         Alcumus
+// @name         Alcumus profiles
 // @namespace    http://tampermonkey.net/
 // @version      0.1
 // @description  Puts Alcumus profiles on AoPS user profiles
