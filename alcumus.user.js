@@ -8,6 +8,7 @@
 // @grant        none
 // ==/UserScript==
 
+// Append html
 function alcumus(id) {
     if ($("#alcumus")[0]) {
         return;
@@ -29,12 +30,12 @@ function alcumus(id) {
     `);
 }
 
-function listen() {
+// Listen for image
+function listen(elem = $("#community-all .cmty-user-profile-avatar.cmty-no-phone img")) {
     if (window.location.href.startsWith("https://artofproblemsolving.com/community/user/")) {
-        const id = $("#community-all .cmty-user-profile-avatar.cmty-no-phone img");
-        if (id[0]) {
+        if (elem[0]) {
             clearInterval(wait);
-            alcumus(id[0]);
+            alcumus(elem[0]);
         }
     }
     else {
@@ -44,7 +45,11 @@ function listen() {
 
 let wait = setInterval(listen, 100);
 $("body").click((e) => {
-    if (e.target.classList.contains("cmty-avatar") || e.target.classList.contains("cmty-post-username") || e.target === $(".cmty-post-username a")[0]) {
+    if (e.target.classList.contains("cmty-avatar") ||
+        e.target.classList.contains("cmty-post-username") ||
+        // Parent elements
+        e.target.parentElement.classList.contains("cmty-post-username")
+       ) {
         wait = setInterval(listen, 100);
     }
 });
