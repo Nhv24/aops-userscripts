@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name         Alcumus profiles
+// @name         Alcumus
 // @namespace    http://tampermonkey.net/
 // @version      0.1
 // @description  Puts Alcumus profiles on AoPS user profiles
@@ -44,7 +44,7 @@ function listen() {
 
 let wait = setInterval(listen, 100);
 $("body").click((e) => {
-    if (e.target.classList.contains("cmty-avatar")) {
+    if (e.target.classList.contains("cmty-avatar") || e.target.classList.contains("cmty-post-username") || e.target === $(".cmty-post-username a")[0]) {
         wait = setInterval(listen, 100);
     }
 });
