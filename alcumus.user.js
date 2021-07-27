@@ -1,11 +1,12 @@
 // ==UserScript==
 // @name         Alcumus
-// @namespace    http://tampermonkey.net/
+// @namespace    https://github.com/Nhv24
 // @version      0.1
 // @description  Puts Alcumus profiles on AoPS user profiles
 // @author       player01/Nhv24
 // @match        https://artofproblemsolving.com/*
 // @grant        none
+// @license      MIT
 // ==/UserScript==
 
 // Append html
