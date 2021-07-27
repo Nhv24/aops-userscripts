@@ -9,4 +9,5 @@
 // @license      MIT
 // ==/UserScript==
 
+// Just insert CSS :P
 $('head').append('<style>.alc--score{display:none;}</style>')
