@@ -1,0 +1,23 @@
+.alc-panel-headed .alc--main {
+    background-color: #444;
+}
+
+.alc-problem-input-bar {
+    background-color: #666;
+}
+.alc-problem-input-main .alc--main-input {
+    background-color: gray;
+    color: whitesmoke;
+}
+
+.alc-problem-input-main .alc--main-input::placeholder {
+    color: whitesmoke;
+}
+
+.alc-panel-headed {
+    box-shadow: none;
+}
+
+.grey-panel .content {
+    background-color: #444;
+}

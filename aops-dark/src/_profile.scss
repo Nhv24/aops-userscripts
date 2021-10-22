@@ -1,0 +1,32 @@
+.cmty-user-profile-main.cmty-index-card,
+.cmty-page-my-aops .cmty-category-cell-heading.cmty-small-category-heading,
+.cmty-page-my-aops .cmty-folder-top,
+.cmty-index-card {
+    background-color: #333;
+}
+
+.cmty-my-aops-top-info,
+.cmty-folder-top .cmty-small-category-heading.cmty-category-cell-heading, 
+.cmty-view-folder-top .cmty-small-category-heading.cmty-category-cell-heading {
+    background-color: transparent;
+}
+
+.cmty-small-category-subheader {
+    color: #ddd;
+}
+
+.cmty-friend-box {
+    background-color: #222;
+}
+
+.cmty-friend-box:hover {
+    background-color: #444;
+}
+
+.cmty-friend-message {
+    color: #fff;
+}
+
+.cmty-user-profile-friends .aops-scroll-inner {
+    border: solid #444;
+}
