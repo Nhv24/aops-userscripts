@@ -93,10 +93,6 @@ pre {
   border-top: 2px solid #009fad;
 }
 
-.alc-panel-headed .alc--main {
-  background-color: #444;
-}
-
 .alc-problem-input-bar {
   background-color: #666;
 }
@@ -114,8 +110,14 @@ pre {
   box-shadow: none;
 }
 
-.grey-panel .content {
+.alc-panel-headed .alc--main,
+.grey-panel .content,
+.aops-panel {
   background-color: #444;
+}
+
+#alc-page .aops-panel h1 {
+  color: #009fad;
 }
 
 .cmty-user-profile-main.cmty-index-card,
