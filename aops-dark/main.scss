@@ -1,8 +1,9 @@
 /* Dark mode for AoPS, WIP */
-@use "src/feed";
-@use "src/nav";
-@use "src/alc";
-@use "src/profile";
+@use "aops-dark/feed";
+@use "aops-dark/nav";
+@use "aops-dark/alc";
+@use "aops-dark/profile";
+@use "aops-dark/homepage";
 
 $bg: #333;
 $main-color: white;
