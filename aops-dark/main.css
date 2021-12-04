@@ -26,9 +26,31 @@
   box-shadow: 0px 0px 10px 2px lightgrey;
 }
 
-pre {
+code.language-none {
   color: #333;
-  filter: invert(1);
+}
+
+pre:not(.pywindow .CodeMirror) {
+  filter: invert(1) hue-rotate(175deg);
+  /* Credits to @happycupcake for hue-rotate */
+  color: black;
+}
+
+.pywindow .CodeMirror {
+  border-color: #333;
+}
+
+.CodeMirror-activeline-background, .CodeMirror {
+  background-color: #111;
+}
+
+.CodeMirror-gutters {
+  border-right: 1px solid #333;
+  background-color: transparent;
+}
+
+.CodeMirror div.CodeMirror-cursor {
+  border-color: white;
 }
 
 /* Quotes + hides */
@@ -55,10 +77,14 @@ pre {
   background-color: #333;
 }
 
+.cmty-poll-display {
+  background-color: #222;
+}
+
 #main-menubar,
 #header {
   color: white;
-  background-color: #2f2f2f;
+  background-color: #222;
 }
 
 .menubar-label-link {
@@ -118,6 +144,26 @@ pre {
   background-color: #444;
 }
 
+.aops-panel {
+  background-color: #333;
+}
+
+.alc-get-started, .alc-intro-bullet-head,
+.alc-astat-bonus-info .alc--name,
+.alc-astat-info .alc--name,
+.alc-rating-info .alc--name,
+.alc-profile-summary .alc--record .alc--label,
+.alc-problem-wheel .alc--total,
+.alc-profile-quests-details span.alc--label,
+.alc-profile-quests-details span.alc--value,
+.alc-profile-quests-details .alc--description {
+  color: #009fad;
+}
+
+.alc-xp-display {
+  background-color: #2d2d2d;
+}
+
 .cmty-user-profile-main.cmty-index-card,
 .cmty-page-my-aops .cmty-category-cell-heading.cmty-small-category-heading,
 .cmty-page-my-aops .cmty-folder-top,
@@ -149,6 +195,10 @@ pre {
 
 .cmty-user-profile-friends .aops-scroll-inner {
   border: solid #444;
+}
+
+.cmty-contenteditable-with-placeholder:empty {
+  border-color: #222;
 }
 
 #variant1-container .intro-video {
@@ -187,7 +237,10 @@ pre {
   background-color: #222;
 }
 
-/* Dark mode for AoPS, WIP */
+.styles_appWrapper__CL4T8 {
+  background-image: url(https://nhv24.github.io/aops-userscripts/assets/pattern-online-gray.png);
+}
+
 /* Modals */
 /* This is basically the body, but not on blogs */
 .production {
@@ -236,3 +289,34 @@ pre {
 #flyout {
   background-color: #444;
 }
+
+.school .tab-contents, .store .tab-contents {
+  background-color: #333;
+}
+
+h3,
+.sch-carousel-outer .arrow-icon,
+h1 {
+  color: #009fad;
+}
+
+.school-quote {
+  background-color: #1d1d1d;
+}
+
+.instructor-row,
+div.testimonial,
+.faq-panel .grey-panel div.content,
+.woot-testimonial {
+  background-color: #222;
+}
+
+.instructor-row:hover {
+  background: #2e2e2e;
+}
+
+div.testimonial a {
+  color: #ddd;
+}
+
+/* Dark mode for AoPS, WIP */
