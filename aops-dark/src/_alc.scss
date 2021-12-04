@@ -1,0 +1,43 @@
+.alc-panel-headed .alc--main {
+    background-color: #444;
+}
+
+.alc-problem-input-bar {
+    background-color: #666;
+}
+.alc-problem-input-main .alc--main-input {
+    background-color: gray;
+    color: whitesmoke;
+}
+
+.alc-problem-input-main .alc--main-input::placeholder {
+    color: whitesmoke;
+}
+
+.alc-panel-headed {
+    box-shadow: none;
+}
+
+.grey-panel .content {
+    background-color: #444;
+}
+
+.aops-panel {
+    background-color: #333;
+}
+
+.alc-get-started, .alc-intro-bullet-head,
+.alc-astat-bonus-info .alc--name,
+.alc-astat-info .alc--name,
+.alc-rating-info .alc--name,
+.alc-profile-summary .alc--record .alc--label,
+.alc-problem-wheel .alc--total,
+.alc-profile-quests-details span.alc--label,
+.alc-profile-quests-details span.alc--value,
+.alc-profile-quests-details .alc--description {
+    color: #009fad;
+}
+
+.alc-xp-display {
+    background-color: #2d2d2d;
+}

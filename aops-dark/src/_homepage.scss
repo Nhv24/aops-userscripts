@@ -1,0 +1,37 @@
+// Things may change as page styles change
+
+#variant1-container .intro-video {
+    background-color: transparent;
+}
+
+#variant1-container .math-category-section {
+    filter: invert(1) hue-rotate(180deg);
+}
+
+#variant1-container .our-books {
+    background: transparent;
+}
+
+#variant1-container .blue-text {
+    color: #009fad;
+}
+
+#variant1-container .new-yorker-img {
+    filter: invert(1);
+}
+
+#variant1-container.single-cta .online-callout {
+    background-color: #1f1f1f;
+}
+
+#variant1-container .callout-text {
+    background-color: transparent;
+}
+
+#variant1-container .staff-slider-content {
+    background-color: transparent;
+}
+
+#variant1-container .stacked-cards li {
+    background-color: #222;
+}
