@@ -1,60 +1,10 @@
 /* Dark mode for AoPS, WIP */
-@use "aops-dark/feed";
-@use "aops-dark/nav";
-@use "aops-dark/alc";
-@use "aops-dark/profile";
-@use "aops-dark/homepage";
-
-$bg: #333;
-$main-color: white;
-$body-bg: #222;
-
-/* Modals */
-$modal-bg: #222;
-$close-x: skyblue;
-
-/* This is basically the body, but not on blogs */
-.production {
-    color: $main-color;
-    background-color: $body-bg;
-    background-image: none;
-}
-#grid {
-    color: $main-color;
-}
-.grid-tab-panel {
-    background-color: $bg;
-}
-
-/* Latex */
-.latex,
-.latexcenter {
-    filter: invert(1);
-}
-
-.asy-image {
-    /* test */
-    background-color: white;
-    border-radius: 4px;
-    padding: 10px;
-}
-
-/* Modals */
-.aops-modal-frame,
-#login-form {
-    background-color: $modal-bg;
-}
-
-.aops-close-x {
-    color: $close-x;
-}
-
-#login-form .info,
-#login-form-links {
-    background-color: $modal-bg;
-    border-color: $modal-bg;
-}
-
-#flyout {
-    background-color: #444;
-}
+@use "src/feed";
+@use "src/nav";
+@use "src/alc";
+@use "src/profile";
+@use "src/homepage";
+@use "src/classroom";
+@use "src/community";
+@use "src/class";
+@use "src/school";
