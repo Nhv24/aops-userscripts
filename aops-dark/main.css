@@ -93,6 +93,10 @@ pre {
   border-top: 2px solid #009fad;
 }
 
+.alc-panel-headed .alc--main {
+  background-color: #444;
+}
+
 .alc-problem-input-bar {
   background-color: #666;
 }
@@ -110,14 +114,8 @@ pre {
   box-shadow: none;
 }
 
-.alc-panel-headed .alc--main,
-.grey-panel .content,
-.aops-panel {
+.grey-panel .content {
   background-color: #444;
-}
-
-#alc-page .aops-panel h1 {
-  color: #009fad;
 }
 
 .cmty-user-profile-main.cmty-index-card,
@@ -151,6 +149,42 @@ pre {
 
 .cmty-user-profile-friends .aops-scroll-inner {
   border: solid #444;
+}
+
+#variant1-container .intro-video {
+  background-color: transparent;
+}
+
+#variant1-container .math-category-section {
+  filter: invert(1) hue-rotate(180deg);
+}
+
+#variant1-container .our-books {
+  background: transparent;
+}
+
+#variant1-container .blue-text {
+  color: #009fad;
+}
+
+#variant1-container .new-yorker-img {
+  filter: invert(1);
+}
+
+#variant1-container.single-cta .online-callout {
+  background-color: #1f1f1f;
+}
+
+#variant1-container .callout-text {
+  background-color: transparent;
+}
+
+#variant1-container .staff-slider-content {
+  background-color: transparent;
+}
+
+#variant1-container .stacked-cards li {
+  background-color: #222;
 }
 
 /* Dark mode for AoPS, WIP */
