@@ -1,4 +1,3 @@
-
 // ==UserScript==
 // @name         AoPS Dark
 // @match        https://artofproblemsolving.com/*
@@ -88,6 +87,30 @@ pre:not(.pywindow .CodeMirror) {
 
 .cmty-poll-display {
   background-color: #222;
+}
+
+.cmty-topic-cell,
+.cmty-topic-watchers {
+  background-color: #2d2d2d !important;
+}
+
+.cmty-topic-cell:hover,
+.cmty-topic-cell:hover .cmty-topic-watchers {
+  background-color: #333 !important;
+}
+
+.cmty-topics-list .cmty-topic-cell {
+  border-color: #222;
+}
+
+.cmty-topic-cell.topic-unread,
+.topic-unread .cmty-topic-watchers {
+  background-color: #444 !important;
+}
+
+.cmty-topic-cell.topic-unread:hover,
+.cmty-topic-cell.topic-unread:hover .cmty-topic-watchers {
+  background-color: #4e4e4e !important;
 }
 
 #main-menubar,
@@ -334,7 +357,7 @@ div.testimonial a {
     if (dark) {
         $('head').append(`<style id="dark-styles">` + styles + `</style>`);
     }
-    $('.login-dropdown-content').click(() => {
+    $('.login-dropdown-content #toggle-mode').click(() => {
         if (dark) {
             dark = false;
             $("#dark-styles").remove();
