@@ -351,6 +351,37 @@ div.testimonial a {
   color: #ddd;
 }
 
+.grid-tab-assignments-problem,
+.grid-tab-assignments-problem .problem-body .problem-block .problem-box .header {
+  color: white;
+}
+
+.grid-tab-assignments-problem .problem-body .problem-block .problem-box.white,
+.grid-tab-assignments div.lesson-header div.cell {
+  background-color: #444;
+}
+
+.grid-tab-assignments-problem .problem-body {
+  background-color: #4d4d4d;
+}
+
+.grid-tab-assignments-problem .problem-input input[type=text] {
+  border: none;
+  background-color: #444;
+}
+
+.grid-tab-assignments div.lesson-header div.cell div.inner.header {
+  border-color: #222;
+}
+
+.lesson-selector span.lesson a {
+  color: white;
+}
+
+.grid-tab-assignments .copyright-notice {
+  color: #eee;
+}
+
 /* Dark mode for AoPS, WIP */
 `;
     $('.login-dropdown-content').append('<span id="toggle-mode" class="menu-item">Dark/Light</span>');
