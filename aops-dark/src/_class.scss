@@ -1,0 +1,71 @@
+.grid-tab-assignments-problem,
+.grid-tab-assignments-problem .problem-body .problem-block .problem-box .header {
+    color: white;
+}
+
+.grid-tab-assignments-problem .problem-body .problem-block .problem-box.white,
+.grid-tab-assignments div.lesson-header div.cell,
+.grid-detail {
+    background-color: #444;
+}
+
+.grid-tab-assignments-problem .problem-body {
+    background-color: #4d4d4d;
+}
+
+.grid-tab-assignments-problem .problem-input input[type="text"] {
+    border: none;
+    background-color: #444;
+}
+
+.grid-tab-assignments div.lesson-header div.cell div.inner.header {
+    border-color: #222;
+}
+
+.grid-detail div.body,
+.grid-detail div.header {
+    border: 0;
+}
+.grid-detail div.header {
+    border-bottom: 1px solid #222;
+}
+
+.lesson-selector span.lesson a {
+    color: white;
+}
+
+.grid-tab-assignments .copyright-notice {
+    color: #eee;
+}
+
+table.grid-schedule tr td, table.grid-schedule tr th,
+.grid-tab-goals .date-view div.lesson-goals-inner div.lesson-goals-inner-row:nth-child(odd) div.lesson-goals-inner-cell,
+.grid-report-table .grid-report-row .grid-report-col-right {
+    background-color: #444;
+    border-color: #333;
+}
+
+table.grid-schedule tr:nth-child(even) td, table.grid-schedule tr:nth-child(even) th,
+.grid-tab-goals .date-view div.lesson-goals-inner div.lesson-goals-inner-row:nth-child(even) div.lesson-goals-inner-cell,
+.grid-report-table .grid-report-row:hover .grid-report-col-right {
+    background-color: #555;
+}
+
+.grid-tab-goals div.lesson-goals-inner div.lesson-goals-inner-row div.lesson-goals-inner-cell,
+.grid-report-table .grid-report-row .grid-report-col-left {
+    border-color: #333;
+}
+
+.problem-view-inner {
+    background-color: #333;
+    border-color: #444;
+}
+
+.problem-view-inner.trigger-edit:hover {
+    background-color: #444;
+}
+
+.grid-tab-assignments-problem .problem-input textarea {
+    color: #fff;
+    background-color: #222;
+}

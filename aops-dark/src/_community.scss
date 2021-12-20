@@ -1,0 +1,64 @@
+$bg: #333;
+$main-color: white;
+$body-bg: #222;
+
+/* Modals */
+$close-x: #009fad;
+
+/* This is basically the body, but not on blogs */
+.production {
+    color: $main-color;
+    background-image: url(https://nhv24.github.io/aops-userscripts/assets/pattern-online-gray.png);
+}
+#grid {
+    color: $main-color;
+}
+.grid-tab-panel {
+    background-color: $bg;
+}
+
+/* Latex */
+.latex,
+.latexcenter {
+    filter: invert(1);
+}
+
+.asy-image {
+    /* test */
+    background-color: white;
+    border-radius: 4px;
+    padding: 10px;
+}
+
+.aops-modal-frame,
+#login-form,
+.dropzone {
+    background-color: #222;
+}
+
+.aops-close-x {
+    color: $close-x;
+}
+
+#login-form .info,
+#login-form-links {
+    background-color: #222;
+    border-color: #222;
+}
+
+#flyout {
+    background-color: #444;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #009fad;
+}
+
+#side-column .menu,
+#side-column .menu .main-option, #side-column .menu h1 {
+    background-color: #333;
+}
+
+#side-column .menu a {
+    color: #009fad;
+}
