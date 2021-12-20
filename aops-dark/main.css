@@ -77,7 +77,8 @@ pre:not(.pywindow .CodeMirror) {
   background-color: #333;
 }
 
-.cmty-poll-display {
+.cmty-poll-display,
+#feed-topic-list {
   background-color: #222;
 }
 
@@ -373,3 +374,5 @@ div.testimonial a {
 .grid-tab-assignments .copyright-notice {
   color: #eee;
 }
+
+/* Dark mode for AoPS, WIP */
