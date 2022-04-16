@@ -1,6 +1,8 @@
 // ==UserScript==
 // @name         AoPS Dark
 // @match        https://artofproblemsolving.com/*
+// @version      0.1
+// @description  An AoPS Dark Mode
 // ==/UserScript==
 
 
